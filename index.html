@@ -1,40 +1,188 @@
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="text/css" rel="stylesheet" href="bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link type="text/css" rel="stylesheet" href="ewooral.css">
-<title>
-Ewooral, Inc.
-</title>
-</head>
-<body>
-<?php  if ((!isset($_POST['Uname'])) || (!isset($_POST['Pswd']))) 
-    {  // visitor needs to enter a name and password ?> 
-    <div class="overlay">
-    <div id="particles-js">
-    <div class="main">
-    <br><br><br><br>
-       <h1 style="font-size:25px"> CHURCH OF PENTECOST<br> <p style="font-size:19px; top: 50%;color:wheat;">Two_Streams_DB</p><br></h1>
-        <!--img src="pentecost logo.gif" style="width:90px; height: 90px;"><br><br-->
-<div style="font-size:18px;" > 
-    Ewooral <br>
-  
-    <form action="seemyinfo.php" method="POST">
-    <input type="text" placeholder="Enter Username" name="Uname" required><br>
-    <input type="password" placeholder="Enter Password" name="Pswd" required><br>
-   <input type="submit" value="Login" name="submit" >
-   </form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ewooral Inc- Elijah Boahen</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Free HTML5 Website Template by uicookies.com" />
+    <meta name="keywords" content="free bootstrap 4, free bootstrap 4 template, free website templates, free html5, free template, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="ewooral.tk" />
     
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="stylesheet"  href="stylie.css">
+  </head>
+  
+  <body style="background-color: #3b034d;
+  background-image: url(images/cover_bg.svg); ">
+<div class="OVER"></div>
+      <!--div id="particles-js"-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark">
+        <div class="container">
+  <img src="images/EwooLogoo.png" class="animated fadeInUpBig delay-5s" style="width:120px; height:120px; ">
+          <a class="navbar-brand animated wobble delay-4s" href="index.html">Ewooral</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="probootstrap-nav" >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+              <li class="nav-item probootstrap-cta probootstrap-seperator"><a href="#" class="nav-link">Sign up</a></li>
+              <li class="nav-item probootstrap-cta"><a href="#" class="nav-link">Log In</a></li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    
+
+     
+    <section class="probootstrap-cover">
+      <div class="container">
+        <div class="row probootstrap-vh-100 align-items-center text-center">
+          <div class="col-sm">
+            <div class="probootstrap-text">
+              <br><br>
+              <h1 class="probootstrap-heading text-white mb-4 animated bounceInDown" >Ewooral</h1>
+              <h6 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top:-20px; color:rgb(193, 202, 202)">"Quit the Jabberings and Deliver"</h6>
+              <div class="probootstrap-subheading mb-5">
+                <p class="h4 font-weight-normal"> Ewooral Under MIT license - <a href="http://opensource.org/licenses/MIT">opensource.org/licenses/MIT</a> <u></u></p>
+                <button class="btn btn-round animated bounceInDown" data-toggle="modal" data-target="#EliModal" style="color: #dd0707; border-color: rgb(64, 189, 247);" >READMORE</button>
+              </div>
+              <marquee style="font-size:40px; font-weight: 900px; color: #ff3a3a">Website is under Maintenance. We have erased all our contents and plead with you to visit Later!</marquee><br><br>
+              <p><a href="https://github.com/Ewooral" class="btn btn-primary mr-2 mb-2 animated bounceInRight">Ewooral github projects</a><a href="" class="btn btn-primary btn-outline-white mb-2">Further Enquiries</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+       <footer class="probootstrap-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-lg mb-4"><h2 class="probootstrap-heading"><a href="#">Ewooral</a></h2></div>
+              <div class="col-lg">
+                <div class="probootstrap-footer-widget mb-4">
+                  <h2 class="probootstrap-heading-2">Company</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">About</a></li>
+                    <li><a href="#" class="py-2 d-block">Jobs</a></li>
+                    <li><a href="#" class="py-2 d-block">Press</a></li>
+                    <li><a href="#" class="py-2 d-block">News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg">
+                 <div class="probootstrap-footer-widget mb-4">
+                  <h2 class="probootstrap-heading-2">Communities</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">Support</a></li>
+                    <li><a href="#" class="py-2 d-block">Sharing is Caring</a></li>
+                    <li><a href="#" class="py-2 d-block">Better Web</a></li>
+                    <li><a href="#" class="py-2 d-block">News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg">
+                 <div class="probootstrap-footer-widget mb-4">
+                  <h2 class="probootstrap-heading-2">Useful links</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">Bootstrap 4</a></li>
+                    <li><a href="#" class="py-2 d-block">jQuery</a></li>
+                    <li><a href="#" class="py-2 d-block">HTML5</a></li>
+                    <li><a href="#" class="py-2 d-block">Sass</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="probootstrap-footer-widget mb-4">
+              <ul class="probootstrap-footer-social list-unstyled float-md-right float-lft">
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md text-left">
+            <ul class="list-unstyled footer-small-nav">
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="col-md text-md-right text-left">
+            <p><small>&copy; Ewooral, Inc. 2016. All Rights Reserved. <br> Made with <span class="icon-heart"></span> by <a href="https:/EwooralDesigns.tk/">EwooralDesigns.</a> Maintenance of site is ongoing</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--MODALS-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        <i class="now-ui-icons ui-1_simple-remove"></i>
+                    </button>
+                    <h4 class="title title-up">UNITY IS STRENGTH</h4>
+                </div>
+                <div class="modal-body">
+            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default">ewooral, Inc.</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Start the second modal for core value button-->
+  <div class="modal fade" id="EliModal" tabindex="-1" role="dialog" aria-labelledby="EliModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                </button>
+              
+
+            </div>
+            <div class="modal-body">
+                 <h1 style="text-align:center; font-size:20px;">Website is under Maintenance<br>We plead with you to visit Later!</h1>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default">ewooral Popup Box</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+        </div>
+      </div>
 </div>
-</div>
-</div>
-</div>
-<script  src="particles.js" type="text/JavaScript"></script>
-<script  src="app.js" type="text/JavaScript"></script>
-<script></script>
-<?php  } else if(($_POST['Uname']=='user') && ($_POST['Pswd']=='pass')) {    // visitor's name and password combination are correct 
-       echo '<h1>Here it is!</h1> <p>I bet you are glad you can see this secret page.</p>';  } else {    // visitor's name and password combination are not correct 
-          echo '<h1>Go Away!</h1> <p>You are not authorized to use this resource.</p>';  } ?>
-</body>
+  
+    
+   
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+     </body>
 </html>

@@ -1,13 +1,7 @@
-
-TITLE: 
-Church - 100% Fully Responsive Free HTML5 Bootstrap Template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+THEME: Unlock - Free Bootstrap 4 Theme
+AUTHOR: uiCookies.com
+LICENSE: Under Creative Commons 3.0 (uiCookies.com/license)
+AUTHOR URI: https://uiCookies.com/
 
 
 CREDITS:
@@ -18,39 +12,14 @@ http://getbootstrap.com/
 jQuery
 http://jquery.com/
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
-
-Modernizr
-http://modernizr.com/
-
 Google Fonts
 https://www.google.com/fonts/
 
 Icomoon
 https://icomoon.io/app/
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+Open Iconic
+https://useiconic.com/open/
 
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-Flexslider
-http://flexslider.woothemes.com/
-
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
-
-Magnific Popup
-http://dimsemenov.com/plugins/magnific-popup/
-
-Demo Images:
-http://unsplash.com
-
+Demo Images
+https://unsplash.com
